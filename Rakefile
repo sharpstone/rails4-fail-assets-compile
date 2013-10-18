@@ -4,3 +4,8 @@
 require File.expand_path('../config/application', __FILE__)
 
 Myapp::Application.load_tasks
+
+
+task "assets:precompile" do
+  raise "raising on assets:precompile on purpose"
+end
